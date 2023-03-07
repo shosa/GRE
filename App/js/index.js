@@ -179,50 +179,6 @@ xui.Class('App', 'xui.Module',{
             );
             
             host.xui_ui_svgpaper1.append(
-                xui.create("xui.UI.List")
-                .setHost(host,"xui_ui_list8")
-                .setItems([
-                    {
-                        "id" : "a",
-                        "caption" : "My Profile",
-                        "imageClass" : "xui-icon-smill"
-                    },
-                    {
-                        "id" : "b",
-                        "caption" : "My Account",
-                        "imageClass" : "xui-uicmd-opt"
-                    },
-                    {
-                        "id" : "c",
-                        "caption" : "My Calender",
-                        "imageClass" : "xui-uicmd-datetime"
-                    },
-                    {
-                        "id" : "d",
-                        "caption" : "My Tasks",
-                        "imageClass" : "xui-icon-bullet",
-                        "disabled" : false
-                    },
-                    {
-                        "id" : "e",
-                        "type" : "split",
-                        "caption" : "e"
-                    },
-                    {
-                        "id" : "f",
-                        "caption" : "Log out",
-                        "imageClass" : "xui-uicmd-popbox"
-                    }
-                ])
-                .setClassName("xui-ui-shadow")
-                .setLeft("0.625em")
-                .setTop("1.25em")
-                .setHeight("auto")
-                .setSelMode("none")
-                .setValue("")
-            );
-            
-            host.xui_ui_svgpaper1.append(
                 xui.create("xui.svg.path")
                 .setHost(host,"xui_svg_path1")
                 .setSvgTag("Shapes:Triangle")
@@ -289,21 +245,21 @@ xui.Class('App', 'xui.Module',{
                 .setItems([
                     {
                         "id" : "a",
-                        "caption" : "Dashboard",
+                        "caption" : "HOMEPAGE",
                         "image" : "",
                         "imageBgSize" : "",
                         "imageClass" : "fa fa-lg fa-dashboard"
                     },
                     {
                         "id" : "b",
-                        "caption" : "Forms",
+                        "caption" : "NUOVA RIP",
                         "image" : "",
                         "imageBgSize" : "",
                         "imageClass" : "fa fa-lg fa-wpforms"
                     },
                     {
                         "id" : "c",
-                        "caption" : "Charts",
+                        "caption" : "STAMPE",
                         "image" : "",
                         "imageBgSize" : "",
                         "imageClass" : "fa fa-lg fa-area-chart"
